@@ -1,0 +1,7 @@
+@import "./boostrap/functions";
+@import "./boostrap/variables";
+@import "./boostrap/mixins";
+
+h1{
+    color: $primary;
+}
