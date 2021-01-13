@@ -3,9 +3,9 @@ import React from "react";
 function Card(props) {
   return (
     <>
-      <div className="cards">
+      <div className="cards col-4">
         <div className="card">
-          <img
+          <img className="img-fluid"
             src={props.imgsrc}
             alt=""
           />
